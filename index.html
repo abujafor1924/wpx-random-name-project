@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rendom name</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>welcom to Rendom Name Games</h1>
+    <div class="wheel-area">
+      <div>
+        <div>
+          <input type="text" id="inputName" placeholder="Enter a name" />
+          <button onclick="addName()">Add Name</button>
+        </div>
+        <div id="nameListDiv">
+          <h3>Name List:</h3>
+          <ul id="nameList"></ul>
+        </div>
+        <div id="result">
+          <h2>
+            Winner:
+            <p id="winnerName"></p>
+          </h2>
+        </div>
+        <button onclick="spinWheel()" class="btn">Spin</button>
+      </div>
+      <div class="arrow-for">
+        <canvas id="canvas" width="500" height="500"> </canvas>
+        <div class="arrow"><i class="fa-solid fa-caret-left"></i></div>
+      </div>
+    </div>
+
+    <!-- scrept-js -->
+    <script src="scrept.js"></script>
+    <script
+      src="https://kit.fontawesome.com/552b0ec388.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

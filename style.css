@@ -1,0 +1,44 @@
+h1 {
+  background: #808000;
+  padding: 10px;
+}
+.arrow-for {
+  position: relative;
+}
+#canvas {
+  border: solid 1px black;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  top: 260px;
+  left: 450px;
+  width: 0;
+  height: 0;
+  font-size: xx-large;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: large;
+  background: yellowgreen;
+}
+
+.wheel-area {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#winnerName {
+  width: 200px;
+  padding: 0 10px;
+  background: blueviolet;
+  border-radius: 10px;
+  text-align: center;
+  font-size: x-large;
+  top: 20px;
+  color: black;
+}
